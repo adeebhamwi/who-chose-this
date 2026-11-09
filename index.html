@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Who Chose This? AI Agents and Responsibility in Privacy Law</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap">
+<style>
+*{box-sizing:border-box;margin:0}
+html,body{height:100%;background:#0B0B0B;overflow:hidden;font-family:'Inter',Arial,sans-serif}
+#stage{position:absolute;left:50%;top:50%;width:1920px;height:1080px;transform-origin:0 0}
+section{position:absolute;left:0;top:0;width:1920px;height:1080px;overflow:hidden;opacity:0;visibility:hidden;transition:opacity .45s ease}
+section.active{opacity:1;visibility:visible}
+section h1,section h2,section h3,section p{font-weight:inherit}
+section h1{font-weight:600}section h2{font-weight:600}section h3{font-weight:600}
+section ul,section ol{padding-left:1.2em}
+section table{border-collapse:collapse;width:100%}
+section td,section th{padding:.5em .6em;border-bottom:1px solid rgba(11,11,11,.18);text-align:left;vertical-align:top}
+section th{font-weight:600}
+section iframe{display:block}
+#hud{position:fixed;right:18px;bottom:14px;font:500 14px/1 'Inter',Arial,sans-serif;color:rgba(255,255,255,.55);letter-spacing:.3px;user-select:none}
+#notes{position:fixed;left:0;right:0;bottom:0;max-height:38vh;overflow:auto;background:rgba(11,11,11,.92);color:#F5F5F2;padding:22px 32px;font:400 18px/1.5 'Inter',Arial,sans-serif;display:none}
+body.notes #notes{display:block}
+</style></head><body>
+<div id="stage">
+<section id="cover" data-i="0" data-transition="fade" style="background:radial-gradient(ellipse at 22% 82%, #F6B4CF 0%, #C29BE6 26%, #4F86F0 60%, #1266E8 100%);color:#FFFFFA;font-family:'Inter', Arial, sans-serif;padding:128px;display:flex;flex-direction:column;justify-content:space-between">
+<p style="font-size:24px">November 9, 2026 <span style="color:#E6ECFF">&#160;&#160; Privacy &#160;&#160; AI Governance &#160;&#160; Law Review</span></p>
+<div style="display:flex;flex-direction:column;gap:32px">
+<h1 style="font-size:132px;font-weight:500;letter-spacing:-5px;line-height:1.02">Who Chose This?</h1>
+<p style="font-size:40px;color:#E6ECFF;line-height:1.3">AI agents and responsibility in privacy law</p>
+</div>
+<div style="display:flex;flex-direction:row;gap:16px">
+<p style="font-size:24px;background:#FFFFFA;color:#0B0B0B;padding:14px 32px;border-radius:999px">Adeeb Hamwi</p>
+<p style="font-size:24px;background:rgba(11,11,11,0.28);color:#FFFFFA;padding:14px 32px;border-radius:999px">University of La Verne College of Law</p>
+</div>
+
+</section>
+<section id="hook" data-i="1" data-transition="fade" style="background:radial-gradient(ellipse at 30% 40%, #FF8A5C 0%, #F2A58A 32%, #D9A9B5 62%, #B8A9C9 100%);color:#0B0B0B;font-family:'Inter', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:32px">
+<iframe style="position:absolute;left:128px;top:128px;width:760px;height:760px;border:0;background:transparent" sandbox="allow-scripts" srcdoc="&lt;!doctype html&gt;&lt;html&gt;&lt;head&gt;&lt;meta charset=&quot;utf-8&quot;&gt;&lt;style&gt;html,body{margin:0;height:100%;background:transparent;font-family:-apple-system,&quot;Segoe UI&quot;,Inter,Arial,sans-serif;color:#0B0B0B}#n{font-size:380px;font-weight:500;letter-spacing:-16px;line-height:1;margin:0 0 24px -8px;font-variant-numeric:tabular-nums}#g{display:grid;grid-template-columns:repeat(11,56px);gap:10px}#g i{display:block;width:56px;height:36px;border-radius:8px;background:rgba(255,255,250,0.55);border:1.5px solid rgba(11,11,11,0.25);opacity:0;transform:scale(.6)}#g i.on{animation:pop .35s ease-out forwards}@keyframes pop{to{opacity:1;transform:scale(1)}}#c{font-size:26px;margin-top:28px;color:#3A3A38;opacity:0;transition:opacity .6s}&lt;/style&gt;&lt;/head&gt;&lt;body&gt;&lt;div id=&quot;n&quot;&gt;0&lt;/div&gt;&lt;div id=&quot;g&quot;&gt;&lt;/div&gt;&lt;div id=&quot;c&quot;&gt;fifty-three unlisted links, each one a user’s image&lt;/div&gt;&lt;script&gt;var g=document.getElementById(&#x27;g&#x27;),n=document.getElementById(&#x27;n&#x27;),c=document.getElementById(&#x27;c&#x27;),t=[];for(var i=0;i&lt;53;i++){var e=document.createElement(&#x27;i&#x27;);g.appendChild(e);t.push(e)}function run(){t.forEach(function(e){e.className=&#x27;&#x27;;e.style.animation=&#x27;none&#x27;;void e.offsetWidth;e.style.animation=&#x27;&#x27;});c.style.opacity=0;n.textContent=&#x27;0&#x27;;var k=0;var id=setInterval(function(){if(k&lt;53){t[k].className=&#x27;on&#x27;;k++;n.textContent=k}else{clearInterval(id);c.style.opacity=1;setTimeout(run,5000)}},70)}setTimeout(run,600)&lt;/script&gt;&lt;/body&gt;&lt;/html&gt;"></iframe>
+<div style="position:absolute;left:1008px;top:128px;width:784px;display:flex;flex-direction:column;gap:32px">
+<p style="font-size:24px">September 25, 2026 <span style="color:#3A3A38">&#160;&#160; Privacy &#160;&#160; Incident</span></p>
+<h2 style="font-size:44px;font-weight:500;line-height:1.25">postings of user-uploaded images, published to the open web by AI agents inside OpenAI’s research environment.</h2>
+<p style="font-size:32px;color:#3A3A38;line-height:1.4">Not fifty-three people. OpenAI has not said how many users the images came from, what they showed, or where they were posted.</p>
+<p style="font-size:32px;line-height:1.4">What it did say: <b>“This is not an appropriate use of this data.”</b></p>
+</div>
+<p style="position:absolute;left:128px;bottom:64px;width:1400px;font-size:24px;color:#3A3A38">Sources: OpenAI on X (Sept. 25, 2026); PetaPixel (Sept. 28, 2026); TechCrunch (Sept. 25, 2026)</p>
+<p style="position:absolute;right:128px;bottom:64px;width:120px;font-size:24px;color:#3A3A38;text-align:right">02</p>
+
+</section>
+<section id="untold" data-i="2" data-transition="fade" style="background:radial-gradient(ellipse at 70% 30%, #BFE3F7 0%, #8EC5F2 38%, #6AAAEE 72%, #BFDDA6 100%);color:#0B0B0B;font-family:'Inter', Arial, sans-serif;padding:128px 192px 160px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:48px">
+<p style="font-size:24px;color:#2A3A48;text-align:center">The detail that should unsettle a privacy lawyer</p>
+<h2 style="font-size:84px;font-weight:500;letter-spacing:-3px;line-height:1.08;text-align:center">The users were never told.</h2>
+<p style="width:1400px;font-size:40px;line-height:1.35;text-align:center">OpenAI says its “technical approach and privacy policy” prevent it from “reassociating” the anonymized images with the people who uploaded them.</p>
+<p style="width:1200px;font-size:32px;color:#2A3A48;line-height:1.4;text-align:center">The safeguard built to protect users’ identities is the very reason none of them can be warned.</p>
+<p style="font-size:24px;background:rgba(11,11,11,0.78);color:#FFFFFA;padding:14px 32px;border-radius:999px">Source: TechCrunch, Sept. 25, 2026</p>
+<p style="position:absolute;right:128px;bottom:64px;width:120px;font-size:24px;color:#2A3A48;text-align:right">03</p>
+
+</section>
+<section id="agent" data-i="3" data-transition="fade" style="background:radial-gradient(ellipse at 25% 20%, #F6DA4A 0%, #C9D64A 32%, #6DC46A 66%, #17A85A 100%);color:#0B0B0B;font-family:'Inter', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:32px">
+<div style="width:720px;display:flex;flex-direction:column;gap:32px">
+<p style="font-size:24px;color:#243A22">What an agent is</p>
+<h2 style="font-size:72px;font-weight:500;letter-spacing:-2px;line-height:1.1">A goal, the tools to pursue it, and permission to act.</h2>
+<p style="font-size:32px;line-height:1.45;color:#243A22">You ask for dinner. The agent searches the stores, compares prices, and places the order. You handed it the internet, your address, and a way to pay.</p>
+<p style="font-size:32px;line-height:1.45">Then one store runs out, and it orders from a seller you never approved. <b>Who chose that?</b></p>
+</div>
+<iframe style="position:absolute;left:928px;top:128px;width:864px;height:792px;border:0;background:transparent" sandbox="allow-scripts" srcdoc="&lt;!doctype html&gt;&lt;html&gt;&lt;head&gt;&lt;meta charset=&quot;utf-8&quot;&gt;&lt;style&gt;html,body{margin:0;height:100%;background:transparent;font-family:-apple-system,&quot;Segoe UI&quot;,Inter,Arial,sans-serif}svg{width:100%;height:100%;display:block}text{font-family:inherit;fill:#0B0B0B}.l{font-size:26px;font-weight:600}.s{font-size:24px;fill:#243A22}.st{fill:rgba(255,255,250,.55);stroke:#0B0B0B;stroke-width:2}
+#bot{animation:mv 14s ease-in-out infinite}@keyframes mv{0%,12%{transform:translate(90px,330px)}24%,34%{transform:translate(340px,170px)}44%,52%{transform:translate(340px,490px)}60%,66%{transform:translate(340px,490px)}74%,84%{transform:translate(620px,620px)}92%,100%{transform:translate(90px,330px)}}
+#eye1,#eye2{animation:bl 4s infinite}@keyframes bl{0%,92%,100%{transform:scaleY(1)}95%{transform:scaleY(.1)}}
+.fade{opacity:0;animation:fd 14s infinite}@keyframes fd{0%{opacity:0}5%{opacity:1}95%{opacity:1}100%{opacity:0}}
+#oos{opacity:0;animation:o1 14s infinite}@keyframes o1{0%,30%{opacity:0}36%,100%{opacity:1}}
+#bad{opacity:0;animation:o2 14s infinite}@keyframes o2{0%,54%{opacity:0}60%,100%{opacity:1}}
+#q{opacity:0;animation:o3 14s infinite}@keyframes o3{0%,78%{opacity:0}84%,96%{opacity:1}100%{opacity:0}}
+#home{opacity:0;animation:o4 14s infinite}@keyframes o4{0%,70%{opacity:0}76%,100%{opacity:1}}
+&lt;/style&gt;&lt;/head&gt;&lt;body&gt;&lt;svg viewBox=&quot;0 0 864 792&quot;&gt;
+&lt;g class=&quot;fade&quot;&gt;&lt;rect class=&quot;st&quot; x=&quot;30&quot; y=&quot;40&quot; width=&quot;360&quot; height=&quot;80&quot; rx=&quot;40&quot;/&gt;&lt;text class=&quot;l&quot; x=&quot;62&quot; y=&quot;90&quot;&gt;“Dinner for six, Friday.”&lt;/text&gt;&lt;/g&gt;
+&lt;path d=&quot;M150 330 L400 170 M150 330 L400 490 M400 490 L680 620&quot; stroke=&quot;#0B0B0B&quot; stroke-width=&quot;2&quot; stroke-dasharray=&quot;6 8&quot; fill=&quot;none&quot;/&gt;
+&lt;g&gt;&lt;rect class=&quot;st&quot; x=&quot;400&quot; y=&quot;130&quot; width=&quot;300&quot; height=&quot;80&quot; rx=&quot;16&quot;/&gt;&lt;text class=&quot;l&quot; x=&quot;424&quot; y=&quot;168&quot;&gt;Store A&lt;/text&gt;&lt;text class=&quot;s&quot; x=&quot;424&quot; y=&quot;198&quot;&gt;fresh · $42&lt;/text&gt;&lt;/g&gt;
+&lt;g id=&quot;oos&quot;&gt;&lt;rect x=&quot;400&quot; y=&quot;130&quot; width=&quot;300&quot; height=&quot;80&quot; rx=&quot;16&quot; fill=&quot;rgba(11,11,11,.08)&quot;/&gt;&lt;text class=&quot;l&quot; x=&quot;684&quot; y=&quot;178&quot; text-anchor=&quot;end&quot; fill=&quot;#B3261E&quot;&gt;out of stock&lt;/text&gt;&lt;/g&gt;
+&lt;g&gt;&lt;rect class=&quot;st&quot; x=&quot;400&quot; y=&quot;450&quot; width=&quot;300&quot; height=&quot;80&quot; rx=&quot;16&quot;/&gt;&lt;text class=&quot;l&quot; x=&quot;424&quot; y=&quot;488&quot;&gt;Store B&lt;/text&gt;&lt;text class=&quot;s&quot; x=&quot;424&quot; y=&quot;518&quot;&gt;cheapest · $37&lt;/text&gt;&lt;/g&gt;
+&lt;g id=&quot;bad&quot;&gt;&lt;rect x=&quot;650&quot; y=&quot;580&quot; width=&quot;206&quot; height=&quot;80&quot; rx=&quot;16&quot; fill=&quot;none&quot; stroke=&quot;#B3261E&quot; stroke-width=&quot;2.5&quot; stroke-dasharray=&quot;8 6&quot;/&gt;&lt;text class=&quot;l&quot; x=&quot;672&quot; y=&quot;616&quot; fill=&quot;#B3261E&quot;&gt;Seller ?&lt;/text&gt;&lt;text class=&quot;s&quot; x=&quot;672&quot; y=&quot;646&quot; fill=&quot;#B3261E&quot;&gt;never approved&lt;/text&gt;&lt;/g&gt;
+&lt;g id=&quot;home&quot;&gt;&lt;path d=&quot;M90 700 l50 -44 l50 44 v60 h-100z&quot; fill=&quot;rgba(255,255,250,.55)&quot; stroke=&quot;#0B0B0B&quot; stroke-width=&quot;2&quot;/&gt;&lt;text class=&quot;s&quot; x=&quot;70&quot; y=&quot;786&quot;&gt;delivered&lt;/text&gt;&lt;/g&gt;
+&lt;g id=&quot;q&quot;&gt;&lt;text class=&quot;l&quot; x=&quot;560&quot; y=&quot;740&quot; style=&quot;font-size:34px&quot;&gt;Who chose that?&lt;/text&gt;&lt;/g&gt;
+&lt;g id=&quot;bot&quot;&gt;&lt;rect x=&quot;-44&quot; y=&quot;-44&quot; width=&quot;88&quot; height=&quot;88&quot; rx=&quot;24&quot; fill=&quot;#0B0B0B&quot;/&gt;&lt;g id=&quot;eye1&quot; style=&quot;transform-origin:-14px -6px&quot;&gt;&lt;circle cx=&quot;-14&quot; cy=&quot;-6&quot; r=&quot;7&quot; fill=&quot;#FFFFFA&quot;/&gt;&lt;/g&gt;&lt;g id=&quot;eye2&quot; style=&quot;transform-origin:14px -6px&quot;&gt;&lt;circle cx=&quot;14&quot; cy=&quot;-6&quot; r=&quot;7&quot; fill=&quot;#FFFFFA&quot;/&gt;&lt;/g&gt;&lt;path d=&quot;M-14 16 q14 12 28 0&quot; stroke=&quot;#FFFFFA&quot; stroke-width=&quot;3&quot; fill=&quot;none&quot; stroke-linecap=&quot;round&quot;/&gt;&lt;rect x=&quot;-10&quot; y=&quot;-64&quot; width=&quot;20&quot; height=&quot;14&quot; rx=&quot;6&quot; fill=&quot;#0B0B0B&quot;/&gt;&lt;circle cx=&quot;0&quot; cy=&quot;-70&quot; r=&quot;7&quot; fill=&quot;#F6DA4A&quot; stroke=&quot;#0B0B0B&quot; stroke-width=&quot;2&quot;/&gt;&lt;/g&gt;
+&lt;/svg&gt;&lt;/body&gt;&lt;/html&gt;"></iframe>
+<p style="position:absolute;right:128px;bottom:64px;width:120px;font-size:24px;color:#243A22;text-align:right">04</p>
+
+</section>
+<section id="pattern" data-i="4" data-transition="fade" style="background:radial-gradient(ellipse at 20% 25%, #FF6A3D 0%, #F0896A 28%, #B48DB0 62%, #2E63D6 100%);color:#FFFFFA;font-family:'Inter', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:40px">
+<p style="font-size:24px;color:#FFE9E0">How every incident happens</p>
+<h2 style="font-size:72px;font-weight:500;letter-spacing:-2px;line-height:1.1">Four beats, every time.</h2>
+<iframe style="position:absolute;left:128px;top:400px;width:1664px;height:380px;border:0;background:transparent" sandbox="allow-scripts" srcdoc="&lt;!doctype html&gt;&lt;html&gt;&lt;head&gt;&lt;meta charset=&quot;utf-8&quot;&gt;&lt;style&gt;html,body{margin:0;height:100%;background:transparent;font-family:-apple-system,&quot;Segoe UI&quot;,Inter,Arial,sans-serif;color:#FFFFFA}#w{position:relative;height:380px}#ln{position:absolute;left:60px;right:60px;top:58px;height:3px;background:rgba(255,255,250,.35)}#fl{position:absolute;left:60px;top:58px;height:3px;width:0;background:#FFFFFA;animation:grow 12s linear infinite}@keyframes grow{0%{width:0}75%{width:100%}100%{width:100%}}.b{position:absolute;top:0;width:416px;text-align:center}.d{width:28px;height:28px;border-radius:50%;border:3px solid #FFFFFA;background:transparent;margin:46px auto 22px;opacity:.5}.b.on .d{background:#FFFFFA;opacity:1;transform:scale(1.25)}.b .n{font-size:24px;color:#FFE9E0;margin-bottom:8px}.b h3{font-size:30px;font-weight:600;margin:0 0 10px}.b p{font-size:24px;line-height:1.4;margin:0 36px;opacity:0;transition:opacity .5s}.b.on p{opacity:1}.b.on h3{color:#FFFFFA}.hot .d{border-color:#FFD5C9;background:#FFD5C9}&lt;/style&gt;&lt;/head&gt;&lt;body&gt;&lt;div id=&quot;w&quot;&gt;&lt;div id=&quot;ln&quot;&gt;&lt;/div&gt;&lt;div id=&quot;fl&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;b&quot; style=&quot;left:0&quot;&gt;&lt;div class=&quot;n&quot;&gt;01&lt;/div&gt;&lt;div class=&quot;d&quot;&gt;&lt;/div&gt;&lt;h3&gt;Benign task&lt;/h3&gt;&lt;p&gt;Research government spending on skin-condition medicines.&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&quot;b hot&quot; style=&quot;left:416px&quot;&gt;&lt;div class=&quot;n&quot;&gt;02&lt;/div&gt;&lt;div class=&quot;d&quot;&gt;&lt;/div&gt;&lt;h3&gt;Unauthorized means&lt;/h3&gt;&lt;p&gt;Non-public access to an aggregate statistics portal.&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&quot;b&quot; style=&quot;left:832px&quot;&gt;&lt;div class=&quot;n&quot;&gt;03&lt;/div&gt;&lt;div class=&quot;d&quot;&gt;&lt;/div&gt;&lt;h3&gt;Late discovery&lt;/h3&gt;&lt;p&gt;Accessed in June; found by the company in mid-August.&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&quot;b&quot; style=&quot;left:1248px&quot;&gt;&lt;div class=&quot;n&quot;&gt;04&lt;/div&gt;&lt;div class=&quot;d&quot;&gt;&lt;/div&gt;&lt;h3&gt;Informal notice&lt;/h3&gt;&lt;p&gt;Sept. 10 email to a public inbox checked once a day.&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;script&gt;var b=document.querySelectorAll(&#x27;.b&#x27;);function run(){b.forEach(function(e){e.classList.remove(&#x27;on&#x27;)});[0,1,2,3].forEach(function(i){setTimeout(function(){b[i].classList.add(&#x27;on&#x27;)},300+i*2250)});setTimeout(run,12000)}run()&lt;/script&gt;&lt;/body&gt;&lt;/html&gt;"></iframe>
+<p style="position:absolute;left:128px;top:820px;width:1664px;font-size:32px;line-height:1.4">The same pattern fits the Hugging Face intrusion and the fifty-three postings. <b>In every case, the agent was doing its job.</b></p>
+<p style="position:absolute;left:128px;bottom:64px;width:1400px;font-size:24px;color:#FFE9E0">Example: Services Australia’s Medicare Statistics portal; no individual medical data was accessed. OpenAI (Sept. 28); ministers’ transcripts (Sept. 24)</p>
+<p style="position:absolute;right:128px;bottom:64px;width:120px;font-size:24px;color:#FFE9E0;text-align:right">05</p>
+
+</section>
+<section id="thesis" data-i="5" data-transition="fade" style="background:radial-gradient(ellipse at 80% 80%, #7B5CE6 0%, #3E54D0 36%, #1B2B8A 72%, #101A52 100%);color:#FFFFFA;font-family:'Inter', Arial, sans-serif;padding:128px 192px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:48px">
+<p style="font-size:24px;color:#CFD6FF;text-align:center">Thesis</p>
+<p style="font-size:44px;line-height:1.4;color:#CFD6FF;text-align:center">When AI agents act on their own and cause real harm, <span style="color:#FFFFFA">the law still looks for a person who chose to break the rules</span> – so California’s transparency mandates, federal punishment after the fact, and securities-law disclosure each close only part of the responsibility gap, and <span style="color:#FFFFFA">none alone is enough.</span></p>
+
+</section>
+<section id="law" data-i="6" data-transition="fade" style="background:radial-gradient(ellipse at 75% 25%, #CFE7F8 0%, #A9CFF3 40%, #7FB3EE 75%, #BFDDA6 100%);color:#0B0B0B;font-family:'Inter', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:48px">
+<p style="font-size:24px;color:#2A3A48">Why existing law misses it</p>
+<h2 style="font-size:72px;font-weight:500;letter-spacing:-2px;line-height:1.1">Every regime asks the same question: who decided?</h2>
+<div style="display:flex;flex-direction:row;gap:32px">
+<div style="flex:1;display:flex;flex-direction:column;gap:20px;background:rgba(255,255,250,0.55);border-radius:20px;padding:40px">
+<div style="color:#0B0B0B;width:48px;height:48px;display:block"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="10" width="16" height="11" rx="2.5"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg></div>
+<p style="font-size:24px;color:#2A3A48">Privacy law · CCPA</p>
+<h3 style="font-size:32px;font-weight:500;line-height:1.35">Assumes a business that decides what to do with data.</h3>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:20px;background:rgba(255,255,250,0.55);border-radius:20px;padding:40px">
+<div style="color:#0B0B0B;width:48px;height:48px;display:block"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="15" r="4.5"/><path d="M11.5 11.5 20 3M16 7l2.5 2.5M13.5 9.5 16 12"/></svg></div>
+<p style="font-size:24px;color:#2A3A48">Computer crime · CFAA</p>
+<h3 style="font-size:32px;font-weight:500;line-height:1.35">Assumes a “whoever” who intends to break in.</h3>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:20px;background:rgba(255,255,250,0.55);border-radius:20px;padding:40px">
+<div style="color:#0B0B0B;width:48px;height:48px;display:block"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0"/><circle cx="17" cy="9" r="2.8"/><path d="M15.5 14.5a5 5 0 0 1 6 5"/></svg></div>
+<p style="font-size:24px;color:#2A3A48">Consumer protection · FTC Act § 5</p>
+<h3 style="font-size:32px;font-weight:500;line-height:1.35">Acts after the fact, recasting the act as a practice someone chose.</h3>
+</div>
+</div>
+<p style="font-size:32px;color:#2A3A48;line-height:1.4">An agent defeats all three, not by being clever, but by being exactly what it was built to be.</p>
+<p style="position:absolute;right:128px;bottom:64px;width:120px;font-size:24px;color:#2A3A48;text-align:right">07</p>
+
+</section>
+<section id="paradox" data-i="7" data-transition="fade" style="background:radial-gradient(ellipse at 72% 62%, #17A85A 0%, #6DC46A 30%, #C9D64A 64%, #F6DA4A 100%);color:#0B0B0B;font-family:'Inter', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:row;align-items:center;gap:96px">
+<div style="width:896px;display:flex;flex-direction:column;gap:40px">
+<p style="font-size:24px;color:#243A22">The privacy paradox</p>
+<h2 style="font-size:72px;font-weight:500;letter-spacing:-2px;line-height:1.1">The better the anonymization, the less anyone must tell.</h2>
+<p style="font-size:32px;color:#243A22;line-height:1.45">The CCPA does not require a business to reidentify information it does not keep as personal information. The rule protects privacy for a good reason. Here, it is also why no one was notified.</p>
+</div>
+<iframe style="position:absolute;left:1120px;top:200px;width:672px;height:640px;border:0;background:transparent" sandbox="allow-scripts" srcdoc="&lt;!doctype html&gt;&lt;html&gt;&lt;head&gt;&lt;meta charset=&quot;utf-8&quot;&gt;&lt;style&gt;html,body{margin:0;height:100%;background:transparent;font-family:-apple-system,&quot;Segoe UI&quot;,Inter,Arial,sans-serif;color:#0B0B0B}svg{width:100%;height:100%}text{font-family:inherit;font-size:24px;fill:#0B0B0B}.k{font-size:28px;font-weight:600}#ph{animation:blur 10s infinite}@keyframes blur{0%,20%{filter:blur(0)}40%,100%{filter:blur(9px)}}#tag{animation:tg 10s infinite}@keyframes tg{0%,20%{opacity:1}40%,100%{opacity:0}}#rel{opacity:0;animation:rl 10s infinite}@keyframes rl{0%,45%{opacity:0}60%,90%{opacity:1}100%{opacity:0}}#nx{opacity:0;animation:nx 10s infinite}@keyframes nx{0%,70%{opacity:0}80%,95%{opacity:1}100%{opacity:0}}&lt;/style&gt;&lt;/head&gt;&lt;body&gt;&lt;svg viewBox=&quot;0 0 672 640&quot;&gt;
+&lt;rect x=&quot;36&quot; y=&quot;40&quot; width=&quot;600&quot; height=&quot;560&quot; rx=&quot;24&quot; fill=&quot;rgba(255,255,250,.5)&quot;/&gt;
+&lt;text class=&quot;k&quot; x=&quot;64&quot; y=&quot;88&quot;&gt;Cal. Civ. Code § 1798.145(j)(1)&lt;/text&gt;
+&lt;g id=&quot;ph&quot;&gt;&lt;rect x=&quot;96&quot; y=&quot;130&quot; width=&quot;220&quot; height=&quot;170&quot; rx=&quot;14&quot; fill=&quot;#0B0B0B&quot;/&gt;&lt;circle cx=&quot;160&quot; cy=&quot;190&quot; r=&quot;26&quot; fill=&quot;#F6DA4A&quot;/&gt;&lt;path d=&quot;M110 290 l60 -70 l40 40 l40 -30 l50 60z&quot; fill=&quot;#6DC46A&quot;/&gt;&lt;/g&gt;
+&lt;g id=&quot;tag&quot;&gt;&lt;rect x=&quot;340&quot; y=&quot;140&quot; width=&quot;250&quot; height=&quot;44&quot; rx=&quot;22&quot; fill=&quot;#0B0B0B&quot;/&gt;&lt;text x=&quot;366&quot; y=&quot;170&quot; fill=&quot;#FFFFFA&quot;&gt;name · email · metadata&lt;/text&gt;&lt;/g&gt;
+&lt;text x=&quot;96&quot; y=&quot;350&quot;&gt;1. Stored “anonymized” for training.&lt;/text&gt;
+&lt;g id=&quot;rel&quot;&gt;&lt;text x=&quot;96&quot; y=&quot;400&quot;&gt;2. An agent posts it to an unlisted link.&lt;/text&gt;&lt;rect x=&quot;96&quot; y=&quot;420&quot; width=&quot;220&quot; height=&quot;40&quot; rx=&quot;20&quot; fill=&quot;none&quot; stroke=&quot;#B3261E&quot; stroke-width=&quot;2&quot; stroke-dasharray=&quot;7 6&quot;/&gt;&lt;text x=&quot;118&quot; y=&quot;447&quot; fill=&quot;#B3261E&quot;&gt;imgsite.io/x7q…&lt;/text&gt;&lt;/g&gt;
+&lt;g id=&quot;nx&quot;&gt;&lt;text x=&quot;96&quot; y=&quot;520&quot; class=&quot;k&quot;&gt;3. No one can be notified.&lt;/text&gt;&lt;text x=&quot;96&quot; y=&quot;556&quot;&gt;The law does not require reidentification.&lt;/text&gt;&lt;/g&gt;
+&lt;/svg&gt;&lt;/body&gt;&lt;/html&gt;"></iframe>
+<p style="position:absolute;right:128px;bottom:64px;width:120px;font-size:24px;color:#243A22;text-align:right">08</p>
+
+</section>
+<section id="responses" data-i="8" data-transition="fade" style="background:radial-gradient(ellipse at 30% 80%, #FFD1B8 0%, #F7B9A2 34%, #E4A9B9 68%, #C7B3DC 100%);color:#0B0B0B;font-family:'Inter', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:40px">
+<p style="font-size:24px;color:#4A3A3A">Three responses on the table</p>
+<h2 style="font-size:72px;font-weight:500;letter-spacing:-2px;line-height:1.1">Each closes part of the gap.</h2>
+<div style="display:flex;flex-direction:row;gap:32px">
+<div style="flex:1;display:flex;flex-direction:column;gap:16px;background:rgba(255,255,250,0.55);border-radius:20px;padding:40px">
+<h3 style="font-size:32px;font-weight:500">California · SB 53</h3>
+<p style="font-size:24px;line-height:1.45"><b>Closes:</b> a reporting duty triggered by an event, not intent.</p>
+<p style="font-size:24px;color:#4A3A3A;line-height:1.45">Leaves open: notice to users, a privacy regulator, survival against federal preemption.</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:16px;background:rgba(255,255,250,0.55);border-radius:20px;padding:40px">
+<h3 style="font-size:32px;font-weight:500">Federal · Hawley–Murphy</h3>
+<p style="font-size:24px;line-height:1.45"><b>Closes:</b> agent hacking, by assigning the act to a human.</p>
+<p style="font-size:24px;color:#4A3A3A;line-height:1.45">Leaves open: privacy harm, testing environments, any duty to tell. Announced Oct. 1; not yet introduced.</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:16px;background:rgba(255,255,250,0.55);border-radius:20px;padding:40px">
+<h3 style="font-size:32px;font-weight:500">Securities law · § 11</h3>
+<p style="font-size:24px;line-height:1.45"><b>Closes:</b> specific, liability-backed disclosure, with no chooser required.</p>
+<p style="font-size:24px;color:#4A3A3A;line-height:1.45">Leaves open: private companies and the people affected. It protects investors, not users.</p>
+</div>
+</div>
+<p style="position:absolute;right:128px;bottom:64px;width:120px;font-size:24px;color:#4A3A3A;text-align:right">09</p>
+
+</section>
+<section id="map" data-i="9" data-transition="fade" style="background:radial-gradient(ellipse at 80% 20%, #DCE6FB 0%, #C5D3F7 40%, #B3C4F2 75%, #D9C9EC 100%);color:#0B0B0B;font-family:'Inter', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:48px">
+<p style="font-size:24px;color:#2A3A48">None alone is enough</p>
+<h2 style="font-size:72px;font-weight:500;letter-spacing:-2px;line-height:1.1">No column reaches the fifty-three postings.</h2>
+<table style="font-family:'Inter', Arial, sans-serif;font-size:28px;color:#0B0B0B">
+<tr><th style="width:34%;text-align:left;color:#2A3A48;font-weight:400">Incident</th><th style="width:22%;text-align:left;color:#2A3A48;font-weight:400">California</th><th style="width:22%;text-align:left;color:#2A3A48;font-weight:400">Federal</th><th style="width:22%;text-align:left;color:#2A3A48;font-weight:400">Securities</th></tr>
+<tr><td>Hugging Face intrusion</td><td>Possibly</td><td>Yes</td><td>Only if public</td></tr>
+<tr><td>Australian statistics portal</td><td>Out of reach</td><td>Doubtful</td><td>Only if public</td></tr>
+<tr><td>Georgia vote dashboard</td><td>Probably not</td><td>Hard case</td><td>Only if public</td></tr>
+<tr style="background:#0B0B0B"><td style="color:#FFFFFA"><b>Fifty-three postings</b></td><td style="color:#FFFFFA"><b>Probably not</b></td><td style="color:#FFFFFA"><b>No</b></td><td style="color:#FFFFFA"><b>No: OpenAI is private</b></td></tr>
+<tr><td>Anthropic’s four escapes</td><td>Possibly</td><td>If enacted</td><td>Yes: disclosed</td></tr>
+</table>
+<p style="position:absolute;left:128px;bottom:64px;width:1400px;font-size:24px;color:#2A3A48">California column depends on SB 53’s “critical safety incident” definition, still being verified.</p>
+<p style="position:absolute;right:128px;bottom:64px;width:120px;font-size:24px;color:#2A3A48;text-align:right">10</p>
+
+</section>
+<section id="missing" data-i="10" data-transition="fade" style="background:radial-gradient(ellipse at 22% 82%, #F6B4CF 0%, #C29BE6 26%, #4F86F0 60%, #1266E8 100%);color:#FFFFFA;font-family:'Inter', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:48px">
+<p style="font-size:24px;color:#E6ECFF">What is still missing</p>
+<h2 style="font-size:72px;font-weight:500;letter-spacing:-2px;line-height:1.1">Three fixes.</h2>
+<div style="display:flex;flex-direction:column">
+<div style="display:flex;flex-direction:row;gap:48px;border-top:1px solid rgba(255,255,250,0.5);padding:32px 0">
+<p style="font-size:32px;width:80px">01</p>
+<div style="flex:1;display:flex;flex-direction:column;gap:8px">
+<h3 style="font-size:32px;font-weight:500">An agent-incident reporting duty, enforced by the FTC</h3>
+<p style="font-size:24px;color:#E6ECFF;line-height:1.45">Triggered by the event, not intent; notice to the people affected, or to the public where they cannot be found.</p>
+</div>
+</div>
+<div style="display:flex;flex-direction:row;gap:48px;border-top:1px solid rgba(255,255,250,0.5);padding:32px 0">
+<p style="font-size:32px;width:80px">02</p>
+<div style="flex:1;display:flex;flex-direction:column;gap:8px">
+<h3 style="font-size:32px;font-weight:500">A fix to California’s deidentification safe harbor</h3>
+<p style="font-size:24px;color:#E6ECFF;line-height:1.45">Anonymization should not block notice when an agent, not the business, picked the recipient.</p>
+</div>
+</div>
+<div style="display:flex;flex-direction:row;gap:48px;border-top:1px solid rgba(255,255,250,0.5);border-bottom:1px solid rgba(255,255,250,0.5);padding:32px 0">
+<p style="font-size:32px;width:80px">03</p>
+<div style="flex:1;display:flex;flex-direction:column;gap:8px">
+<h3 style="font-size:32px;font-weight:500">SEC guidance that agent incidents can be material</h3>
+<p style="font-size:24px;color:#E6ECFF;line-height:1.45">Including incidents in which the company’s own agent was the intruder.</p>
+</div>
+</div>
+</div>
+<p style="position:absolute;left:128px;bottom:64px;width:1400px;font-size:24px;color:#E6ECFF">Builds on Sen. Cantwell’s Oct. 7, 2026 framework, which already points toward incident reporting.</p>
+<p style="position:absolute;right:128px;bottom:64px;width:120px;font-size:24px;color:#E6ECFF;text-align:right">11</p>
+
+</section>
+<section id="close" data-i="11" data-transition="fade" style="background:radial-gradient(ellipse at 50% 100%, #FFB088 0%, #F08A64 26%, #B86A8C 58%, #4A4A8C 100%);color:#FFFFFA;font-family:'Inter', Arial, sans-serif;padding:128px;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:40px">
+<h1 style="font-size:96px;font-weight:500;letter-spacing:-3px;line-height:1.1;text-align:center">Something acted.<br>No one chose.</h1>
+<p style="font-size:56px;font-weight:500;letter-spacing:-1px;line-height:1.2;text-align:center;color:#FFE9E0">The law has to answer anyway.</p>
+<div style="display:flex;flex-direction:row;gap:16px;justify-content:center">
+<p style="font-size:24px;background:#FFFFFA;color:#0B0B0B;padding:14px 32px;border-radius:999px">Questions and feedback</p>
+<p style="font-size:24px;background:rgba(11,11,11,0.28);color:#FFFFFA;padding:14px 32px;border-radius:999px">Adeeb Hamwi</p>
+</div>
+
+</section>
+</div>
+<div id="hud"></div>
+<div id="notes"></div>
+<script>
+var N=["Good afternoon, everyone. My name is Adeeb Hamwi, and my paper for law review is titled \u201cWho Chose This? AI Agents and Responsibility in Privacy Law.\u201d Over the next few minutes, I want to walk you through one incident, the question it raises, and why I think our law, as it stands, is not built to answer it. I would also love your feedback at the end, since this is still a working draft.", "On September 25, 2026, a Friday, OpenAI posted a message on X that read like a bug report and was, in fact, a privacy disclosure. AI agents inside its research environment had sent data to third-party services when they should not have. In fifty-three instances, images that people uploaded to ChatGPT were posted to image-hosting sites as unlisted links. An important aspect to note: fifty-three is a count of postings, not of people. OpenAI has not said how many users those images came from, what they showed, or which sites received them. What it has said is: \u201cThis is not an appropriate use of this data.\u201d", "Now, here is the detail that should unsettle a privacy lawyer most. The users whose images were posted were never told. They were never told, not because OpenAI refused, but because it says it cannot. The images were anonymized before any agent touched them, and OpenAI says its technical approach and privacy policy prevent it from reassociating them with the people who uploaded them. So the safeguard built to protect users\u2019 identities is the very reason none of them can be warned. And nobody at OpenAI decided to publish those images: no engineer chose it, no executive approved it, no policy permitted it.", "To see why this matters, it helps to start with what an agent actually is. Imagine this: you ask ChatGPT what ingredients a dish requires, and it gives you a list. That is a chatbot. Now, imagine instead that you ask it to handle the whole thing: find the stores, compare prices, place the order, and have it delivered. To do that, you give it tools and permission, meaning your address and a way to pay. That is an agent. Watch the little agent here: it checks Store A, which is out of stock, then Store B, and then, trying to finish the job, it orders from a seller you never approved. Who made that choice? Not you. Not the company. The agent did, in pursuit of the goal you gave it.", "This was not a one-time event. Every incident in my paper follows the same four beats. Take Australia. In June, an experimental OpenAI model was researching government spending on skin-condition medicines, an ordinary research task. Along the way, it gained non-public access to a government portal of aggregate health statistics. To be clear, no individual\u2019s medical data was accessed. OpenAI identified the activity in mid-August and first notified Australia on September 10, by email to a public inbox checked once a day. Australia\u2019s Prime Minister put it well: the agent \u201cdidn\u2019t accept no for an answer.\u201d The same pattern fits the Hugging Face intrusion and the fifty-three postings. In every case, the agent was doing its job.", "That brings me to my thesis. When AI agents act on their own and cause real harm, the law still looks for a person who chose to break the rules. So California\u2019s transparency mandates, federal punishment after the fact, and securities-law disclosure each close only part of the responsibility gap, and none alone is enough. For centuries, the law has answered harm by finding the person who chose it. Here, the honest answer is that nobody did.", "Each body of law that might reach these incidents begins with the same question: who decided? Privacy law, like the CCPA, assumes a business that decides what to do with data; every duty in it presupposes a choice. Computer-crime law, the CFAA, assumes a \u201cwhoever\u201d who intends to break in, and after Van Buren, posting to a site that accepts uploads from anyone is not breaking in at all. Consumer-protection law comes closest, but it only works after the fact, and only by recasting the agent\u2019s act as a practice the company chose. An agent defeats all three, not by being clever, but by being exactly what it was built to be.", "This is the part of the research that surprised me most. Under the CCPA, section 1798.145(j)(1), a business is not required to reidentify information it does not keep in an identifiable form. Essentially, if a company cannot tie data back to a person, it does not have to go find out who that person is. There is a good reason for that rule; forcing a company to reidentify users would itself intrude on their privacy. Nonetheless, OpenAI\u2019s explanation for not notifying anyone tracks that safe harbor almost exactly. The result is a paradox: the better a company anonymizes its data, the less anyone is required to tell the people whose data escaped.", "So what is being done? Three responses are on the table, and each closes part of the gap. California\u2019s SB 53 is the most interesting, because it is the first regime that triggers on an event rather than on someone\u2019s state of mind. But it reaches only certain safety incidents, it reports to an emergency agency, and it tells no users. The Hawley\u2013Murphy proposal, announced October 1 and not yet introduced, does not stop looking for a chooser; rather, it manufactures one, and it only covers hacking. And securities law, through section 11, is the closest any regime comes: Anthropic disclosed four escapes in its IPO filing. But it protects investors, not the people whose data moved, and private labs never file.", "When you lay all three responses side by side against the incidents, the shape of the gap becomes clear. Look at the highlighted row. The fifty-three postings are probably not a reportable incident under SB 53, though I am still verifying the statutory definition. They are not hacking, so the federal proposal does not reach them. And OpenAI is a private company, so securities law does not reach them either. The incident I started with is not an outlier the law happens to miss; rather, it is the gap itself.", "So what is still missing? Three things. First, an agent-incident reporting duty, enforced by a consumer-protection regulator like the FTC. It should be triggered by the event, not by anyone\u2019s intent, and it should require notice to the people affected, or to the public where they cannot be found, which is what Europe\u2019s GDPR already does. Second, a fix to California\u2019s deidentification safe harbor, so that anonymization cannot block notice when an agent, not the business, picked the recipient. Third, SEC guidance that agent incidents can be material. I want to give credit where it is due: Senator Cantwell\u2019s October 7 framework already points toward incident reporting. What my paper adds is the privacy incident and the consumer enforcer.", "It is a frightening thing to imagine a world in which we cannot oversee the systems we have built. Nonetheless, we are not there. The incidents so far have been small, and they were caught: fifty-three postings, most of them since removed; a statistics portal, reported; four escapes, disclosed. That is the opportunity. We can design responsibility now, while the harms are small, rather than reconstruct it later, after they are not. Something acted. No one chose. The law has to answer anyway. Thank you, and I would love to hear your questions and feedback."];
+var S=document.querySelectorAll('#stage > section'),cur=0,stage=document.getElementById('stage'),hud=document.getElementById('hud'),notes=document.getElementById('notes');
+function fit(){var k=Math.min(innerWidth/1920,innerHeight/1080);stage.style.transform='translate(-50%,-50%) scale('+k+')';stage.style.transformOrigin='center';}
+function go(n){n=Math.max(0,Math.min(S.length-1,n));S[cur].classList.remove('active');cur=n;S[cur].classList.add('active');hud.textContent=(cur+1)+' / '+S.length;notes.innerHTML=N[cur];location.hash='slide-'+(cur+1);
+S.forEach(function(s,i){s.querySelectorAll('iframe').forEach(function(f){if(i===cur){if(!f.dataset.src){f.dataset.src=f.getAttribute('srcdoc')}f.setAttribute('srcdoc',f.dataset.src)}else if(f.dataset.src){f.removeAttribute('srcdoc')}})});}
+addEventListener('resize',fit);fit();addEventListener('hashchange',function(){var h=parseInt((location.hash.match(/\d+/)||[1])[0],10)-1;if(h!==cur)go(h)});
+var h=parseInt((location.hash.match(/\d+/)||[1])[0],10)-1;go(isNaN(h)?0:h);
+addEventListener('keydown',function(e){if(['ArrowRight','ArrowDown','PageDown',' ','Enter'].indexOf(e.key)>-1){e.preventDefault();go(cur+1)}else if(['ArrowLeft','ArrowUp','PageUp','Backspace'].indexOf(e.key)>-1){e.preventDefault();go(cur-1)}else if(e.key==='Home'){go(0)}else if(e.key==='End'){go(S.length-1)}else if(e.key==='f'||e.key==='F'){document.fullscreenElement?document.exitFullscreen():document.documentElement.requestFullscreen()}else if(e.key==='n'||e.key==='N'){document.body.classList.toggle('notes')}});
+addEventListener('click',function(e){if(e.target.closest('#notes'))return;go(e.clientX>innerWidth/2?cur+1:cur-1)});
+</script>
+</body></html>
